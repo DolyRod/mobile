@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+     ionic framework
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-input placeholder="ingrese su nombre"></ion-input>
+      <ion-input placeholder="ingrese su correo"></ion-input>
+      <ion-title>genero</ion-title>
+      <ion-item>
+        <ion-label>hombre</ion-label>
+        <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>mujer</ion-label>
+        <ion-checkbox color="primary" ></ion-checkbox>
+      </ion-item>
+      <ion-button expand="full" color="dark">registrarse</ion-button>
+    </ion-toolbar>
+    <br>
+   
+  </ion-header>
+
+  <div id="container">
+    <ion-icon name="arrow-undo-outline"></ion-icon>
+    <ion-label color="primary">componentes de ionic</ion-label>  
+  </div>
+
+
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="light">
+      <ion-icon md="caret-back" ios="chevron-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-fab-button color="light">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light">
+        <ion-icon name="logo-vimeo"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+</ion-content>
